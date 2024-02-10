@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: wheat;
+    width: 20%;
+    padding: 15px;
+}
+
+.immprinc {
+    width: 100%;
+    margin-bottom: 15px;
+} 
+
+.titolo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px 15px 0px;
+}
+
+.titolo h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.titolo img:hover {
+    background-image: url(immagini/hearts-symbol--entertainment-gaming-card-hearts-symbol.png);
+    cursor: pointer;
+}
+
+.titolo img:active {
+    background-image: url(immagini/hearts-symbol--entertainment-gaming-card-hearts-symbol2.png);
+}
+
+div ~ h2 {
+    margin: 15px 0px 15px 0px;
+}
+
+h2 ~ p {
+    margin: 15px 0px 15px 0px;
+}
+
+.pulsante {
+    display: flex;
+}
+
+.pulsante a {
+    background-color: white;
+    border: solid 1px black;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.pulsante a:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.pulsante a:active {
+    background-color: rgba(194, 194, 194, 0.849);
+}
